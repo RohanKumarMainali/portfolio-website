@@ -1,0 +1,105 @@
+body{
+background: #0D1937;
+}
+
+.custom-shape-divider-bottom-1653105854 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1653105854 svg {
+    position: relative;
+    display: block;
+    width: calc(124% + 1.3px);
+    height: 167px;
+}
+
+.custom-shape-divider-bottom-1653105854 .shape-fill {
+    fill: #0D1937;
+}
+
+.home{
+position: relative;
+background: linear-gradient(167.24deg, #162A5E 9.23%, #2D1A44 85.73%);
+min-height: 70vh;
+}
+.profile{
+        position: absolute;
+    /* width: 30%; */
+    margin-left: 10%;
+    max-width: 30%;
+    margin-top: 3%;
+}
+
+.details{
+display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    margin-left: 20%;
+        position: absolute;
+    margin-top: 2%;
+
+}
+
+.first-line{
+font-family: poppins, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+
+color: #DD6031;
+}
+.my-name{
+margin-top:-1%;
+font-family: 'Tiro Devanagari Marathi';
+font-style: normal;
+font-weight: 400;
+font-size: 49px;
+line-height: 65px;
+
+color: #FFFFFF;
+}
+
+.download-btn{
+
+    background: #DD6031;
+    border-radius: 11px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    width: 183px;
+    height: 46px;
+}
+
+.dotted-pattern{
+display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 10px;
+  max-width: 100px;
+  row-gap:25%;
+}
+
+.stick-pattern{
+position: relative;
+margin-top:17%;
+}
+
+.dotted-row{
+
+border-radius:50%;
+width: 9.55px;
+height: 9.55px;
+
+background: rgba(119, 159, 161, 0.2);
+}
