@@ -4,6 +4,7 @@ import profile from '../Image/profile.png'
 import Navbar from './Navbar.js'
 import About from './About.js'
 import Projects from './Projects.js'
+import Contact from './Contact.js'
 
 function Home(){
 var count=20;
@@ -17,7 +18,7 @@ return(
       <Navbar/>
       <div className="details">
       <h1 className="first-line">Hi I am</h1>
-      <h1 className="my-name">Rohan Kumar Mainalai</h1>
+      <h1 className="my-name">Rohan Kumar Mainali</h1>
       <button className="download-btn">Download CV</button>
 
       </div>
@@ -48,6 +49,7 @@ return(
       </div>
       <About/>
       <Projects/>
+      <Contact/>
 </>
 )
 

@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77e92d41-bf97-437e-a124-4b0950d14d70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/src/Image/animationBug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/Image/paisa khai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/Components/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/Components/Contact.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/Components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/Components/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Projects.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/Components/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653317717577</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added projects">
+      <created>1653381317099</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653381317099</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -115,6 +125,7 @@
     <MESSAGE value="removing django" />
     <MESSAGE value="directory change" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="Added projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added projects" />
   </component>
 </project>

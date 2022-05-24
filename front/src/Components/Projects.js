@@ -17,7 +17,7 @@ return(
         <div className={ProjectsStyle.description}>
 
         <div className={ProjectsStyle.right}>
-    <img className={ProjectsStyle.travelWebsiteImage} src={travelImg}></img>
+        <img className={ProjectsStyle.travelWebsiteImage} src={travelImg}></img>
         </div>
            <div className={ProjectsStyle.left}>
 
