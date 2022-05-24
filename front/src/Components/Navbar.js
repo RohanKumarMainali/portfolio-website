@@ -10,6 +10,7 @@ function Navbar(){
 const handleAbout=()=>{
 console.log("hello");
 
+
 }
 
  if (active === 'about') {
