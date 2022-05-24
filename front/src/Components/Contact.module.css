@@ -49,7 +49,22 @@ color: #DD6031;
     margin-bottom:2%;
 
 }
+.main{
+
+margin-top:0%;
+}
 
 .smallHeader{
 color: white;
+}
+
+@media screen and (max-width:500px){
+
+    .main{
+    margin-top:100%;
+    }
+    .form{
+    width:100%;
+    }
+
 }

@@ -27,6 +27,7 @@ function Contact(){
 
 return(
 <>
+<div className={ContactStyle.main}>
         <h1 className={ContactStyle.heading}>Contact</h1>
         <h2 className={ContactStyle.smallHeader}>Let's get in touch</h2>
         <div className={ContactStyle.container}>
@@ -49,6 +50,8 @@ return(
      </div>
     </form>
     <button className={ContactStyle.submitBtn} onClick={sendEmail}>Submit</button>
+    </div>
+
     </div>
 
 

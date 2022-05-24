@@ -5,6 +5,7 @@
 .right,.logo{
 padding:1%;
 }
+
 .logo a{
 color: white;
     font-size: 20px;
@@ -29,4 +30,50 @@ color: white;
     margin: auto;
     display: flex;
     justify-content: space-between;
+
+}
+
+.hamburger{
+display:none;
+height:25px;
+
+}
+
+.hamItem{
+    width: 47px;
+    height: 4px;
+    margin:9px;
+    background: white;
+}
+
+.items{
+    display: flex;
+    position:relative;
+
+}
+.items li{
+    text-decoration:none;
+    list-style-type:none;
+}
+@media screen and (max-width:900px){
+        .right a{
+        flex-direction: column;
+        }
+        .items{
+
+                flex-direction: column;
+                background: blue;
+                margin: auto;
+                margin-top: 15%;
+        }
+        .item{
+        margin: auto;
+        text-align: center;
+        }
+
+        .hamburger{
+        display: block;
+        }
+
+
 }

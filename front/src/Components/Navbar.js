@@ -25,13 +25,22 @@ return(
     <a href="/#">Portfolio</a>
     </ul>
     </div>
+
     <div className={Style.right}>
-    <ul>
-    <a href="/#">Home</a>
-    <a href="/#"  className={Style.about} >About</a>
-    <a href="/#">Projects</a>
-    <a href="/#">Contact</a>
+    <ul className={Style.items}>
+    <li className={Style.item}><a href="/#">Home</a></li>
+    <li className={Style.item}><a href="/#"  className={Style.about} >About</a></li>
+    <li className={Style.item}><a href="/#">Projects</a></li>
+    <li className={Style.item}><a href="/#">Contact</a></li>
+
     </ul>
+
+    </div>
+
+    <div className={Style.hamburger}>
+    <div className={Style.hamItem}></div>
+    <div className={Style.hamItem}></div>
+    <div className={Style.hamItem}></div>
     </div>
     </div>
 

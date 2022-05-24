@@ -4,6 +4,10 @@ padding:0;
 
 body{
 background: #0D1937;
+
+}
+body{
+ overflow-x: hidden;
 }
 
 .custom-shape-divider-bottom-1653105854 {

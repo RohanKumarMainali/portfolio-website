@@ -43,4 +43,17 @@ line-height: 30px;
 
 color: #FFFFFF;
 }
+@media screen and (max-width:500px){
+    .aboutImg{
+    display:none;
+    }
 
+.paragraph{
+font-weight: 400;
+width:80%;
+font-size: 14px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+}
