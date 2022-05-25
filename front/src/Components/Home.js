@@ -7,6 +7,7 @@ import Projects from './Projects.js'
 import Contact from './Contact.js'
 import pdf from '../Image/Profile.pdf'
 import {saveAs} from 'file-saver'
+import Footer from './Footer.js'
 
 function Home(){
 var count=20;
@@ -62,6 +63,7 @@ return(
       <About/>
       <Projects/>
       <Contact/>
+      <Footer/>
 </>
 )
 

@@ -2,6 +2,8 @@ import React from 'react'
 import {useState} from 'react'
 import ContactStyle from "./Contact.module.css"
 import emailjs from 'emailjs-com'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact(){
 
@@ -9,6 +11,8 @@ function Contact(){
     const [email,setEmail]=useState();
     const [subject,setSubject]=useState();
     const [body,setBody]=useState();
+
+
 
 
 
@@ -21,7 +25,28 @@ function Contact(){
         reply_to: email,
     }
     console.log(form)
-    emailjs.send("service_ixwm5ta","template_khbkm7i",form,'XDvDFJzlFmbZOHtI1');
+    emailjs.send("service_ixwm5ta","template_khbkm7i",form,'XDvDFJzlFmbZOHtI1').
+    then(res=>console.log(res)).
+    catch(err=>console.log(err));
+
+
+    setTimeout(() => {
+        toast.success('🦄 Message sent successfully!', {
+        position: "top-center",
+        autoClose: 1000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+
+      }, 200);
+
+      setTimeout(()=>{
+      window.location.reload(false);
+      },1200)
+
 
  }
 
@@ -53,6 +78,17 @@ return(
     </div>
 
     </div>
+    <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        />
 
 
 </>

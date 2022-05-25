@@ -12,7 +12,6 @@ text-align: center;
 
 .container{
 width: 60%;
-    height: 500px;
     display: flex;
     margin: auto;
 
@@ -24,6 +23,9 @@ width: 60%;
     height:250px;
     width: 240px;
     background-size: cover;
+}
+.highlight{
+color: #00AFB5;
 }
 
 .details{
@@ -39,6 +41,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 30px;
+text-align:left;
 
 color: #FFFFFF;
 }
@@ -56,3 +59,20 @@ line-height: 20px;
 color: #FFFFFF;
 }
 }
+
+@media screen and (max-width:1470px){
+    .aboutImg{
+    display:none;
+    }
+    .paragraph{
+font-weight: 400;
+width:60%;
+font-size: 14px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+
+
+}
+

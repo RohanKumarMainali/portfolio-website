@@ -1,0 +1,38 @@
+.footer-container{
+display: flex;
+justify-content: space-around;
+background:#1f28664d;;
+
+}
+.footer-heading{
+font-family: Roboto;
+color: white;
+opacity:0.9;
+}
+li{
+text-decoration:none;
+    list-style-type: none;
+}
+a{
+text-decoration:none;
+color:white;
+}
+
+.footer-info{
+color: white;
+opacity:0.8;
+}
+
+.middle{
+    margin-right: 11%
+}
+
+@media screen and (max-width: 900px){
+
+.footer-container{
+flex-direction: column;
+}
+.middle{
+margin-right:0%;
+}
+}

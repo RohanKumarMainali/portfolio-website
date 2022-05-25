@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77e92d41-bf97-437e-a124-4b0950d14d70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/src/Components/Pdf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/Image/Profile.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/Components/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/Components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/toast(Wow so easy !)" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/Components/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/About.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/Components/Contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Contact.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/Components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/Components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/Components/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Projects.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/Components/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/Image/About.png" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Image/About.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653455385783</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="completed">
+      <created>1653465790400</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653465790400</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -152,6 +162,7 @@
     <MESSAGE value="Contact page completed" />
     <MESSAGE value="Responsive" />
     <MESSAGE value="Animations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Animations" />
+    <MESSAGE value="completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed" />
   </component>
 </project>

@@ -27,7 +27,10 @@ return(
         </div>
            <div className={ProjectsStyle.left} data-aos="fade-down">
 
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <p>Travel Nepal website was built using django for backend and react.js for frontend. This website features two different panel, one for user and one for admin. The admin panel is
+            responsible for handling all the CRUD functionality of tour packages and booking request whereas the user panel displays all the available tour packages and it's
+             details like available seats, price, description of each days and discount offers. I used django rest framework for creating all APIs and postman to test them
+             before using those APIs. Indeed I faced a lot of challenges and bugs on this project but I completed this project in time. </p>
         </div>
 
         </div>
@@ -37,7 +40,10 @@ return(
         <div className={ProjectsStyle.description}>
          <div className={ProjectsStyle.left} data-aos="fade-right">
 
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <p>Paisa Khai? is a simple expense tracking application that helps people to track all of their expenses. I built this prototype of Paisa Khai? application
+         in figma with a user-centric design process. Before even jumping into the high fidelity prototype, I created user persona to
+         understand my target audience. In addition to user persona, I also created wireframes, user flow and task flow to built an efficient design.
+          In this prototype, I mainly focused on usability and its principle for a pleasant user experience. </p>
         </div>
 
         <div className={ProjectsStyle.right} data-aos="fade-up">
