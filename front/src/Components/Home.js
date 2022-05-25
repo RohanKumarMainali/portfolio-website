@@ -13,12 +13,7 @@ function Home(){
 var count=20;
  const animals = [1, 2, 3, 4, 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,1,2,3,4,5,5,5,5,5,5,5];
 
-  const saveFile = () => {
-    saveAs(
-      "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-      "Profile.pdf"
-    );
-  };
+
 
 return(
 <>
@@ -30,7 +25,7 @@ return(
       <div className="details">
       <h1 className="first-line">Hi I am</h1>
       <h1 className="my-name">Rohan Kumar Mainali</h1>
-      <a href={pdf}className="download-btn" download="Resume.pdf"><label className="download-text">Download CV</label></a>
+      <a href={pdf} className="download-btn" download="Resume.pdf"><label className="download-text">Download CV</label></a>
 
       </div>
         <div className="home-profile">
