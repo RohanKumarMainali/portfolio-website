@@ -70,10 +70,10 @@ height:25px;
 
                 flex-direction: column;
                 position:fixed;
-                top:5vh;
+                top:1vh;
                 right:0;
                 width:46%;
-                height:40%;
+                height:20%;
                 background:#0d1937;
                 transform: translateX(100%);
                 transition: 0.5s ease-in;
@@ -81,7 +81,7 @@ height:25px;
         }
         .item{
         text-align:left;
-        margin-top:18%;
+        margin-top:5%;
         }
 
         .hamburger{

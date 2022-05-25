@@ -47,8 +47,14 @@ color: #DD6031;
     width: 26%;
     height: 46px;
     margin-bottom:2%;
+    transition: 0.2s ease-in;
+    cursor: pointer;
 
 }
+.submitBtn:hover{
+transform:scale(1.1);
+}
+
 .main{
 
 margin-top:0%;

@@ -8,8 +8,7 @@ font-size: 32px;
 line-height: 48px;
 
 color: #DD6031;
-display: flex;
-margin-left:20%;
+text-align: center;
 
 }
 
@@ -104,3 +103,4 @@ color: #FFFFFF;
 }
 
 }
+

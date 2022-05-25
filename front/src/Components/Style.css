@@ -34,23 +34,18 @@ body{
 .home{
 position: relative;
 background: linear-gradient(167.24deg, #162A5E 9.23%, #2D1A44 85.73%);
-min-height: 70vh;
+min-height: 50vh;
     width: 100%;
 }
 .profile{
-        position: absolute;
-    /* width: 30%; */
-    margin-left: 10%;
-    max-width: 30%;
-    margin-top: 3%;
+width:100%;
 }
 
 .details{
 display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: auto;
-    margin-left: 20%;
+    margin-left: 5%;
     margin-top: 2%;
 
 }
@@ -78,7 +73,7 @@ color: #FFFFFF;
 .download-btn{
 
     background: #DD6031;
-    border-radius: 11px;
+    border-radius: 12px;
     border: none;
     font-family: 'Poppins';
     font-style: normal;
@@ -87,11 +82,22 @@ color: #FFFFFF;
     line-height: 30px;
     color: white;
     width: 183px;
-    height: 46px;
+    height: 42px;
+    text-decoration:none;
+    transition: 0.3s ease-in;
+}
+.download-text{
+vertical-align:middle;
+
+}
+.download-btn:hover{
+transform:scale(1.1)
+
 }
 
 .dotted-pattern{
-display: grid;
+
+display: none;
   grid-template-columns: auto auto auto auto auto auto;
   padding: 10px;
   max-width: 100px;
@@ -111,3 +117,47 @@ height: 9.55px;
 
 background: rgba(119, 159, 161, 0.2);
 }
+
+.home-page-upper{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.home-profile{
+width:650px;
+height:200px;
+object-fit: cover;}
+
+@media screen and (max-width:900px){
+
+
+.home-profile{
+display:none;
+width:350px;
+height:200px;
+object-fit: cover;}
+
+
+
+}
+
+@media screen and (max-width:1350px){
+
+.first-line{
+font-size: 22px;
+
+color: #DD6031;
+}
+.my-name{
+font-size: 24px;
+
+}
+
+.home-profile{
+width:550px;
+height:200px;
+object-fit: cover;}
+
+
+}
+

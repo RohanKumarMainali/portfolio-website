@@ -5,10 +5,19 @@ import Navbar from './Navbar.js'
 import About from './About.js'
 import Projects from './Projects.js'
 import Contact from './Contact.js'
+import pdf from '../Image/Profile.pdf'
+import {saveAs} from 'file-saver'
 
 function Home(){
 var count=20;
  const animals = [1, 2, 3, 4, 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,1,2,3,4,5,5,5,5,5,5,5];
+
+  const saveFile = () => {
+    saveAs(
+      "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "Profile.pdf"
+    );
+  };
 
 return(
 <>
@@ -16,14 +25,17 @@ return(
       <div className="container">
       <div className="home" >
       <Navbar/>
+      <div className="home-page-upper">
       <div className="details">
       <h1 className="first-line">Hi I am</h1>
       <h1 className="my-name">Rohan Kumar Mainali</h1>
-      <button className="download-btn">Download CV</button>
+      <a href={pdf}className="download-btn" download="Resume.pdf"><label className="download-text">Download CV</label></a>
 
       </div>
-
-      <img src={profile} className="profile"></img>
+        <div className="home-profile">
+        <img src={profile} className="profile"></img>
+        </div>
+        </div>
       <div className="stick-pattern">
        <div className="dotted-pattern">
      {animals.map(animal => (
