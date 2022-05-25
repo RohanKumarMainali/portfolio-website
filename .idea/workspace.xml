@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="77e92d41-bf97-437e-a124-4b0950d14d70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/Components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/Components/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/Components/Projects.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653486800939</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="All completed">
+      <created>1653489277105</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653489277106</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -163,6 +167,7 @@
     <MESSAGE value="Animations" />
     <MESSAGE value="completed" />
     <MESSAGE value="Added Footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Footer" />
+    <MESSAGE value="All completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="All completed" />
   </component>
 </project>
