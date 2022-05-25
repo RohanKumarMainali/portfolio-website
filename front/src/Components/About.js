@@ -7,7 +7,7 @@ function About(){
 
 return(
 <>
-    <h1 className={AboutStyle.heading}>About</h1>
+    <h1 className={AboutStyle.heading}  id="about">About</h1>
     <div className={AboutStyle.container}>
     <div className={AboutStyle.details}>
     <div className={AboutStyle.paragraph}>

@@ -1,46 +1,59 @@
 
 import React from "react"
-import {useState} from 'react';
-import Style from "./Navbar.module.css"
+import {useState,useEffect} from 'react';
+import  "./Navbar.css"
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import {Link} from "react-scroll";
 
 function Navbar(){
 
-    const [active,setActive]=useState();
+    const [active,setActive]=useState("items");
+    const [toggleIcon, setToggleIcon]=useState("hamburger");
 
-const handleAbout=()=>{
-console.log("hello");
+     useEffect(()=>{
+      Aos.init({duration:2000});
+    },[]);
 
 
-}
 
- if (active === 'about') {
-            Style.about = { color: '#ff3333' };
-        }
+    const navToggle=()=>{
+     active === 'items'? setActive("items activeMenu"):
+     setActive("items");
+     console.log("clicked")
+
+     toggleIcon==='hamburger'? setToggleIcon("hamburger toggleIcon"):
+     setToggleIcon("hamburger");
+
+    }
+
+
+
 
 return(
 <>
-    <div className={Style.container}>
-    <div className={Style.logo}>
+    <div className="container">
+    <div className="logo">
     <ul>
-    <a href="/#">Portfolio</a>
+    <a href="/">Portfolio</a>
     </ul>
     </div>
 
-    <div className={Style.right}>
-    <ul className={Style.items}>
-    <li className={Style.item}><a href="/#">Home</a></li>
-    <li className={Style.item}><a href="/#"  className={Style.about} >About</a></li>
-    <li className={Style.item}><a href="/#">Projects</a></li>
-    <li className={Style.item}><a href="/#">Contact</a></li>
+    <div className="right">
+    <ul className={active}>
+    <li className="item"><Link to="home" onClick={navToggle}>Home</Link></li>
+    <li className="item"><Link to="about" smooth={true} duration={1000} onClick={navToggle}>About</Link></li>
+    <li className="item"><Link to="projects" smooth={true} duration={1000} onClick={navToggle}>Projects</Link></li>
+    <li className="item"><Link to="contact" smooth={true} duration={1000} onClick={navToggle}>Contact</Link></li>
 
     </ul>
 
     </div>
 
-    <div className={Style.hamburger}>
-    <div className={Style.hamItem}></div>
-    <div className={Style.hamItem}></div>
-    <div className={Style.hamItem}></div>
+    <div className={toggleIcon} onClick={navToggle}>
+    <div className="hamItem line1"></div>
+    <div className="hamItem line2"></div>
+    <div className="hamItem line3"></div>
     </div>
     </div>
 

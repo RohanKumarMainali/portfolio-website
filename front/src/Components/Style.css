@@ -35,6 +35,7 @@ body{
 position: relative;
 background: linear-gradient(167.24deg, #162A5E 9.23%, #2D1A44 85.73%);
 min-height: 70vh;
+    width: 100%;
 }
 .profile{
         position: absolute;
@@ -50,7 +51,6 @@ display: flex;
     align-items: flex-start;
     margin: auto;
     margin-left: 20%;
-        position: absolute;
     margin-top: 2%;
 
 }
